@@ -15,6 +15,30 @@
 	--box-shadow:
 		0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%),
 		0 16px 32px rgba(var(--gray), 33%);
+
+  --tokyo-night-terminal-red: #f7768e;
+  --tokyo-night-salmon: #ff9e64;
+  --tokyo-night-ninjin-orange: #e0af68;
+  --tokyo-night-gray-orange: #cfc9c2;
+
+  --tokyo-night-glowing-lime: #9ece6a;
+  --tokyo-night-soft-cyan: #73daca;
+  --tokyo-night-pale-turquoise: #b4f9f8;
+  --tokyo-night-sky-blue: #2ac3de;
+
+  --tokyo-night-bright-cyan: #7dcfff;
+  --tokyo-night-tokyo-blue: #7aa2f7;
+  --tokyo-night-lavender: #bb9af7;
+  --tokyo-night-light-steel-blue: #c0caf5;
+
+  --tokyo-night-gray-blue: #a9b1d6;
+  --tokyo-night-light-steel-blue2: #9aa5ce;
+  --tokyo-night-glaucous: #565f89;
+  --tokyo-night-biscay: #414868;
+
+  --tokyo-night-dark: #1a1b26;
+
+
 }
 body {
 	font-family: var(--font-atkinson);
@@ -34,6 +58,7 @@ main {
 	max-width: calc(100% - 2em);
 	margin: auto;
 	padding: 3em 1em;
+  background-color: rgba(192, 202, 245, 0.7);
 }
 h1,
 h2,

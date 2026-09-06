@@ -13,10 +13,12 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^8.0.0",
+    "@astrojs/node": "^11.1.5",
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.4",
     "astro": "^7.3.1",
-    "sharp": "^0.35.0"
+    "sharp": "^0.35.0",
+    "twallpaper": "^2.1.2"
   },
   "allowScripts": {
     "esbuild": true

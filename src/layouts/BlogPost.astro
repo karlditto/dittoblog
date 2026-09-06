@@ -55,7 +55,11 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		</style>
 	</head>
 
+  <script>
+    import "../bg.ts"
+  </script>
 	<body>
+    <div id="app"> </div>
 		<Header />
 		<main>
 			<article>
