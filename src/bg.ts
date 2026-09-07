@@ -7,7 +7,7 @@ const options: TWallpaperOptions = {
   tails: 60,
   colors: ["#bb9af7", "#f7768e", "#7dcfff", "#9ece6a"],
   pattern: {
-    image: "/public/games.svg",
+    image: "/games.svg",
   },
   size: 100
   
