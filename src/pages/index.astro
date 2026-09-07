@@ -3,6 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import Background from '../components/Background.astro';
 ---
 
 <!doctype html>
@@ -10,13 +11,12 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
-  <script> import "../bg.ts" </script>
 	<body>
-    <div id="app"> </div>
+    <Background />
 		<Header />
 		<main>
 			<h1> Hello, Welcome!</h1>
-      <img src="/public/Ditto.png" alt="Italian Trulli"> 
+      <img src="/public/Ditto.png" alt="I'am Ditto"> 
 		</main>
 		<Footer />
 	</body>
